@@ -114,9 +114,11 @@ const HomePage = () => {
         <div className="z-20 w-full lg:w-4/5 h-auto lg:h-[100vh] pt-28 lg:pt-40 lg:pb-5 px-3 lg:px-0 mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-16 gap-x-5">
           <div className="w-full lg:w-2/5 order-2 lg:order-1">
             <div className="w-full px-3 lg:pt-10 mx-auto">
-              <p className="w-full text-5xl lg:text-[3.8rem] font_black font-medium leading-[3rem] lg:leading-[4rem]">Helping You Make Sense of Data, One Lesson at a Time</p>
+              <p className="w-full text-5xl lg:text-[3.8rem] font_black font-medium leading-[3rem] lg:leading-[4rem]">Hi, I’m Apinke Afolabi—a Data Analyst, Educator and Advocate for Data Literacy in Africa
+
+</p>
               <Link to={'/contact'}>
-                <p className="text-primary font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Schedule a complimentary consultation call</p>
+                <p className="text-primary font-medium font_regular text-base lg:text-lg uppercase mt-5 underline decoration-dotted hover:underline hover:decoration-solid">Let's talk....</p>
               </Link>
             </div>
           </div>
@@ -134,21 +136,21 @@ const HomePage = () => {
         {/* ABOUT */}
         <div className="w-full lg:w-4/5 lg:h-[100vh] mx-auto mt-32 flex flex-col items-center justify-center gap-y-20">
           <div className="w-full">
-            <p className="font_black font-bold text-4xl lg:text-4xl text-center">A bit about me...</p>
+            <p className="font_black font-bold text-4xl lg:text-4xl text-center">The Impact I'm Creating and Why It Matters</p>
           </div>
 
           <div className="home-about relative w-full px-3 lg:px-0 grid grid-cols-1 lg:grid-cols-3 grid-row-3 lg:grid-row-1 gap-x-5 gap-y-5 font-light font_regular">
 
             <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>I’m Inioluwa Apinke Afolabi, a data analyst, educator, and mentor, committed to helping you navigate the data-driven world.</p>
+              <p>Data for Next-Gen Africa: I had free time on my hands, and like many people, I wanted to do something meaningful with it. I started asking myself, ‘How can I give back?’ I knew I wanted to use my skills—not just as a data analyst, but also with my background in education—to make a real impact. So, I began looking for opportunities to volunteer or contribute to causes that centered around data literacy. But when I couldn't find any data-focused volunteer opportunities in Lagos, I was moved to take action and create my own. That’s how Data for Next-Gen Africa was born. What we’re really doing is empowering secondary school students with the data skills they need to succeed in a world increasingly shaped by data, no matter what career path they choose.</p>
             </div>
 
             <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>Whether you're an aspiring data analyst or a professional looking to elevate your skills, whether you're just starting out or have years of experience.</p>
+              <p>SQL Query Corner: When I was learning SQL, I found it difficult to find projects that really helped me connect the dots between what I was learning and how to apply it in the real world. This challenge led me to create SQL Query Corner—a platform where beginners can practice real-world projects and see how SQL syntaxes are used in actual analysis. The goal is to bridge the gap between theory and practice, providing hands-on experience that prepares learners for the kind of work they’ll encounter in the field. SQL Query Corner is for anyone ready to take their SQL skills to the next level and start building meaningful, job-ready projects.</p>
             </div>
 
             <div className="flex items-center py-14 px-12 bg-white text-center z-10">
-              <p>I’m here to help you learn what you need at your own pace.</p>
+              <p>Data Skills & Portfolio Workshops: When I started learning data analytics, I struggled to find personalized support. I spent countless hours sifting through tutorials, feeling stuck, and wishing I had someone to help me understand where I was going wrong. The frustration of not having a mentor to guide me through each step made the journey longer and harder than it had to be. That’s why I now offer personalized data workshops. With my hands-on approach, I guide you through each workshop, ensuring you gain the necessary skills to succeed. You won’t feel lost. Together, we’ll identify the perfect data role for you, equip you with the skill sets required for that role, and build a portfolio that showcases your abilities to land the job. My workshops are designed to train you for real-world data roles and help you get hired, setting you up for a successful career in data.</p>
             </div>
             
           </div>
